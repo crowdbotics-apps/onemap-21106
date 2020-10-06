@@ -7,7 +7,6 @@ import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import EmailAuth1129244Navigator from '../features/EmailAuth1129244/navigator';
 import Maps2129243Navigator from '../features/Maps2129243/navigator';
-import EmailAuth2127461Navigator from '../features/EmailAuth2127461/navigator';
 
 /**
  * new navigators can be imported here
@@ -18,7 +17,6 @@ const AppNavigator = {
     //@BlueprintNavigationInsertion
 EmailAuth1129244: { screen: EmailAuth1129244Navigator },
 Maps2129243: { screen: Maps2129243Navigator },
-EmailAuth2127461: { screen: EmailAuth2127461Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
